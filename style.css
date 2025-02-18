@@ -1,0 +1,47 @@
+header {
+    background-color: blue;
+    color: black;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    background-color: dimgrey;
+    width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(120, 119, 119);
+}
+
+.container button {
+    background-color: black;
+    padding: 8px 15px;
+    border: none;
+    color: azure;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: cadetblue;
+    color: black;
+}
+
+footer {
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Lora', serif;
+    font-size: 15px;
+}
